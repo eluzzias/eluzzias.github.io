@@ -1,131 +1,152 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>About me</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel "stylesheet2" href="assets/css/style2.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Uncial+Antiqua&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="nav-bar">
+        <a href="#home" class="nav-logo">My profile</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#repos">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Intro</p>
+          <h1>Lizzie Schmidt</h1>
+          <p class="hero-text">Website for my personal projects and to learn more about me!</p>
+          <a href="#about" class="button">Learn more</a>
+        </div>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="https://i.pinimg.com/736x/01/fd/7a/01fd7a59236f696422ab5c62c88cd5f7.jpg" height="100px" alt="" /></span>
-						<h1>Lizzie Schmidt</h1>
-						<p> About me</p>
-					</header>
+        <div class="hero-image">
+          <img src="images/lizzie.png" alt="Lizzie Schmidt portrait" class="hero-portrait" />
+        </div>
+      </div>
+    </header>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							
-						</ul>
-					</nav>
+    <main>
+      <section id="about" class="section about">
+        <div class="section-heading">
+          <span>who i am ｡𖦹°‧ </span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Hey there! I'm Lizzie, a passionate designer and developer.I love a gothic aesthetic and enjoy creating projects that reflect my unique style.
+                  From coding to crafting, I embrace creativity in every form. I have always loved computers and coding since I was little.(Watching the HBO show Silicon Valley really inspired me lol) 
+                  I am currently studying Computer Systems in the University of Limerick. I am going into my second year and cant wait to learn more. </p>
+            <p>I like to think of myself as a beginner but I am eager to improve my skills and continue learning. I am always open to new opporunties and colabs! </p>
+          </div>
+          <div class="about-card">
+            <h3>Quick stats</h3>
+            <ul>
+              <li><strong>Style:</strong> Gothic, alternative, </li>
+              <li><strong>Vibes:</strong>Friendly, creative, curious</li>
+              <li><strong>Interests:</strong> coding, anime, gaming, art, music</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-				<!-- Main -->
-					<div id="main">
+      <section id="gallery" class="section gallery">
+        <div class="section-heading">
+          <span>gallery</span>
+          <h2> mood ⋆✴︎˚｡⋆ </h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="photo-card">
+            <img src="images/cats.jpg" alt="Photo 1" />
+          </div>
+          <div class="photo-card">
+            <img src="images/miku.jpg" alt="Photo 2" />
+          </div>
+          <div class="photo-card">
+            <img src="images/cutie.jpg" alt="Photo 3" />
+          </div>
+          <div class="photo-card">
+            <img src="images/angel.jpg" alt="Photo 4" />
+          </div>
+        </div>
+        <p class="gallery-note">All found on the internet, not my own photos. I just like to collect them and make a gallery of things I like.</p>
+      </section>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Interests</h2>
-										</header>
-										<p> Im a huge fan of gaming, anime and Computer science. 
-										</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="https://i.pinimg.com/736x/79/88/15/79881579347d1488dab6b49564872b84.jpg" alt="" /></span>
-								</div>
-							</section>
+      <section id="repos" class="section repos">
+        <div class="section-heading">
+          <span>code & projects</span>
+          <h2>my github repos</h2>
+        </div>
+        <div class="repos-grid">
+          <div class="repo-card">
+            <div class="repo-header">
+              <h4>Snake game</h4>
+              <a href="https://github.com/eluzzias/snake" class="repo-link">→</a>
+            </div>
+            <p class="repo-description">A classic snake game built with Java. Navigate the snake and eat food while avoiding the walls.</p>
+            <div class="repo-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Web</span>
+            </div>
+          </div>
+          <div class="repo-card">
+            <div class="repo-header">
+              <h4>Kitten Piano</h4>
+              <a href="https://github.com/eluzzias/KItten-Typewriter_Piano" class="repo-link">→</a>
+            </div>
+            <p class="repo-description">A collaborative project for my Software development module in the second semester of 3rd year.</p>
+            <div class="repo-tags">
+              <span class="tag">Java</span>
+            </div>
 
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>History</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Projects</h3>
-										<p> Only began to make projects recently</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Goals</h3>
-										<p>I want to become better at programming</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Contact</h3>
-										<p>Contact info at the bottom.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
-							</section>
+          </div>
+          <div class="repo-card">
+            <div class="repo-header">
+              <h4>Totalitas</h4>
+              <a href="https://github.com/eluzzias/Totalitas" class="repo-link">→</a>
+            </div>
+            <p class="repo-description"> A group project for my Games Dev module where we made a game using Unity and C#.</p>
+              <span class="tag">C#</span>
+              <span class="tag">Unity</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-					
-						
+      
+      
+      <section id="contact" class="section contact">
+        <div class="section-heading">
+          <span>Contact</span>
+          <h2>where to find me</h2>
+        </div>
+        <div class="contact-box">
+          <div>
+            <h3>Connect me!</h3>
+            <p>Just send me an email or message me on Instagram. I am always open to new opportunities and collaborations!</p>
+          </div>
+          <div class="contact-list">
+            <p><strong>Email:</strong> <span>elizasch0501@gmail.com</span></p>
+            <p><strong>Instagram:</strong> <span>@liza_schxx </span></p>
+            <p><strong>Discord:</strong> <span>eluzzia</span></p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Contact me</h2>
-							<p>Further questions please contact me!</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Contact info</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road, Ireland</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">25452134@studentmail.ul.ie</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer class="footer">
+      <p> 𑣲⋆ </p>
+    </footer>
+  </div>
+</body>
 </html>
