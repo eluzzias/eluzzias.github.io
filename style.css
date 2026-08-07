@@ -180,9 +180,14 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: var(--shadow);
 }
+
+.section {
   margin-top: 72px;
   padding: 38px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.section:first-of-type {
+  margin-top: 0;
 }
 
 .section-heading {
@@ -283,6 +288,9 @@ h1 {
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .repo-card:hover {
@@ -343,17 +351,29 @@ h1 {
 .contact-box {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
-  gap: 26px;
-  padding: 30px;
+  gap: 34px;
+  padding: 34px;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: inset 0 0 0 1px rgba(214, 58, 163, 0.04);
+  max-width: 1080px;
+  margin: 0 auto;
+  align-items: flex-start;
 }
 
 .contact-box h3 {
   margin-top: 0;
   font-family: 'Kaushan Script', cursive;
+}
+
+.contact-list p {
+  margin: 14px 0;
+}
+
+.contact-list span {
+  display: block;
+  margin-top: 6px;
 }
 
 .contact-list p {
